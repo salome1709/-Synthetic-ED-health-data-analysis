@@ -1,0 +1,601 @@
+patient_id,age,sex,arrival_mode,arrival_time,triage_level,chief_complaint,queue_time_minutes,length_of_stay_minutes,doctor_seen,nurse_interactions,diagnostic_tests_ordered,lab_turnaround_minutes,treatment_given,disposition,mortality,return_visit_72h,ed_crowding_level,shift_type
+1,27,M,walk-in,2026-02-09 20:36:38.273409,green,abdominal pain,149,325,yes,1,none,,yes,discharged,no,no,low,night
+2,79,M,walk-in,2026-02-10 16:48:38.273481,green,diarrhea,91,347,yes,2,none,,yes,discharged,no,no,high,evening
+3,11,F,walk-in,2026-02-07 11:32:38.273534,red,diarrhea,7,276,yes,4,labs,76.0,yes,discharged,no,no,medium,night
+4,26,M,walk-in,2026-02-07 05:37:38.273665,yellow,headache,35,160,yes,1,none,,yes,admitted,no,no,low,evening
+5,38,F,walk-in,2026-02-09 09:55:38.273714,yellow,vomiting,17,250,yes,4,both,70.0,no,discharged,no,no,medium,night
+6,68,F,walk-in,2026-02-04 17:42:38.273756,green,bleeding,158,364,yes,4,labs,116.0,yes,discharged,no,no,low,evening
+7,15,F,walk-in,2026-02-05 12:25:38.273799,yellow,vomiting,46,309,yes,2,both,64.0,yes,discharged,no,no,medium,evening
+8,84,M,walk-in,2026-02-04 15:40:38.273875,yellow,headache,80,375,yes,4,none,,no,discharged,no,no,medium,night
+9,78,M,walk-in,2026-02-09 08:24:38.273923,green,fever,75,165,yes,3,labs,42.0,no,discharged,no,no,low,day
+10,35,F,walk-in,2026-02-05 15:11:38.273969,green,headache,89,337,yes,3,none,,yes,discharged,no,yes,low,evening
+11,11,F,walk-in,2026-02-06 19:15:38.273997,green,bleeding,151,203,yes,4,imaging,,yes,discharged,no,no,medium,night
+12,56,M,ambulance,2026-02-09 07:00:38.274043,orange,diarrhea,27,246,yes,5,labs,46.0,no,discharged,no,no,high,evening
+13,68,M,walk-in,2026-02-05 10:10:38.274064,yellow,vomiting,50,81,yes,4,imaging,,yes,discharged,no,no,medium,day
+14,65,M,walk-in,2026-02-07 03:16:38.274083,yellow,abdominal pain,22,299,yes,6,none,,yes,discharged,no,no,medium,evening
+15,59,F,walk-in,2026-02-08 22:15:38.274102,green,bleeding,50,285,yes,5,imaging,,yes,discharged,no,no,low,night
+16,7,M,walk-in,2026-02-04 10:27:38.274140,yellow,fever,79,259,yes,3,both,111.0,yes,discharged,no,no,medium,day
+17,19,M,walk-in,2026-02-07 21:12:38.274164,yellow,abdominal pain,70,178,yes,4,labs,86.0,yes,discharged,no,no,low,day
+18,8,F,ambulance,2026-02-07 04:16:38.274188,red,diarrhea,5,103,yes,5,labs,97.0,no,discharged,no,no,high,night
+19,74,M,walk-in,2026-02-09 07:17:38.274234,green,fever,50,126,yes,2,none,,no,discharged,no,no,medium,evening
+20,19,M,walk-in,2026-02-08 06:03:38.274256,yellow,fever,54,105,yes,3,labs,98.0,no,discharged,no,no,medium,day
+21,82,M,walk-in,2026-02-03 19:29:38.274274,green,fever,44,96,yes,2,labs,65.0,no,discharged,no,no,medium,evening
+22,21,M,walk-in,2026-02-09 06:37:38.274293,green,fever,72,207,yes,6,labs,77.0,no,discharged,no,no,low,evening
+23,2,M,walk-in,2026-02-06 15:44:38.274311,green,fever,179,404,yes,4,imaging,,yes,transferred,no,no,low,day
+24,59,F,walk-in,2026-02-10 07:43:38.274330,yellow,fever,40,311,yes,2,labs,91.0,yes,discharged,no,no,medium,night
+25,71,F,walk-in,2026-02-04 19:30:38.274394,yellow,vomiting,78,336,yes,4,none,,no,discharged,no,no,low,night
+26,87,M,walk-in,2026-02-05 15:34:38.274435,green,vomiting,38,108,yes,1,none,,yes,discharged,no,no,low,day
+27,13,M,walk-in,2026-02-05 20:13:38.274476,yellow,fever,28,252,yes,3,both,58.0,no,admitted,no,no,medium,evening
+28,10,M,ambulance,2026-02-07 11:31:38.274503,red,fever,1,232,yes,6,labs,51.0,no,discharged,yes,no,high,day
+29,51,F,walk-in,2026-02-04 14:19:38.274542,green,diarrhea,47,280,yes,3,imaging,,no,discharged,no,no,medium,night
+30,29,M,walk-in,2026-02-06 00:24:38.274579,green,fever,89,290,yes,6,none,,no,admitted,no,no,medium,evening
+31,88,M,walk-in,2026-02-06 06:07:38.274810,green,vomiting,51,285,yes,2,none,,no,discharged,no,no,medium,evening
+32,62,F,walk-in,2026-02-06 01:32:38.274864,yellow,abdominal pain,50,275,yes,2,labs,50.0,yes,discharged,no,no,low,night
+33,69,M,walk-in,2026-02-08 20:05:38.274905,yellow,bleeding,35,233,yes,1,labs,37.0,yes,admitted,no,no,medium,day
+34,45,F,walk-in,2026-02-08 18:25:38.274947,yellow,diarrhea,30,162,yes,6,labs,92.0,no,discharged,no,no,high,evening
+35,8,M,walk-in,2026-02-05 10:00:38.274988,green,headache,87,131,yes,2,both,68.0,yes,discharged,no,no,low,night
+36,18,F,ambulance,2026-02-08 20:45:38.275050,orange,headache,30,238,yes,5,none,,no,discharged,no,no,low,day
+37,54,F,walk-in,2026-02-08 11:28:38.275093,orange,vomiting,26,89,yes,2,both,37.0,no,discharged,no,no,medium,day
+38,74,M,walk-in,2026-02-07 00:39:38.275133,yellow,vomiting,67,133,yes,5,both,49.0,yes,discharged,no,no,low,night
+39,14,F,walk-in,2026-02-08 19:32:38.275172,yellow,bleeding,59,343,yes,2,labs,47.0,no,admitted,no,no,medium,day
+40,73,M,walk-in,2026-02-04 07:32:38.275214,yellow,abdominal pain,36,227,yes,2,none,,yes,admitted,no,no,high,night
+41,67,F,walk-in,2026-02-04 06:20:38.275253,green,headache,53,281,yes,5,labs,111.0,yes,discharged,no,no,medium,day
+42,54,M,walk-in,2026-02-07 02:25:38.275292,green,vomiting,58,332,yes,6,none,,yes,discharged,no,yes,high,evening
+43,62,F,walk-in,2026-02-07 04:13:38.275329,green,bleeding,174,442,yes,5,labs,72.0,no,discharged,no,yes,medium,night
+44,64,F,walk-in,2026-02-08 06:07:38.275366,green,bleeding,75,152,yes,4,labs,72.0,yes,admitted,no,no,medium,night
+45,41,M,walk-in,2026-02-07 05:14:38.275404,yellow,abdominal pain,49,169,yes,6,both,92.0,no,transferred,no,no,low,day
+46,18,F,walk-in,2026-02-10 03:50:38.275442,green,vomiting,43,296,yes,3,labs,112.0,no,discharged,no,yes,medium,day
+47,33,F,walk-in,2026-02-07 22:54:38.275477,green,bleeding,99,353,yes,1,imaging,,no,admitted,no,no,low,day
+48,25,M,walk-in,2026-02-06 13:24:38.275515,green,vomiting,104,293,yes,2,both,82.0,no,discharged,no,no,high,night
+49,80,F,walk-in,2026-02-07 07:03:38.275554,yellow,vomiting,90,313,yes,3,labs,90.0,no,discharged,no,no,high,night
+50,42,M,walk-in,2026-02-04 06:42:38.275593,yellow,bleeding,16,127,yes,5,none,,no,discharged,no,no,low,evening
+51,89,F,walk-in,2026-02-04 15:01:38.275632,green,fever,96,190,yes,3,imaging,,yes,discharged,no,no,high,evening
+52,6,M,walk-in,2026-02-07 09:35:38.275673,green,bleeding,55,183,yes,3,both,34.0,no,admitted,no,no,low,night
+53,64,M,walk-in,2026-02-09 20:53:38.275711,green,bleeding,42,211,yes,2,labs,58.0,no,discharged,no,no,low,night
+54,48,F,walk-in,2026-02-05 10:29:38.275750,green,abdominal pain,95,205,yes,4,both,56.0,no,discharged,no,no,medium,day
+55,89,M,walk-in,2026-02-09 15:33:38.275792,yellow,diarrhea,28,294,yes,1,labs,43.0,yes,discharged,no,yes,high,night
+56,66,M,walk-in,2026-02-10 01:01:38.275831,yellow,fever,31,291,yes,2,imaging,,yes,discharged,no,no,high,night
+57,5,F,walk-in,2026-02-08 00:14:38.275868,green,fever,167,392,yes,4,both,44.0,no,admitted,no,no,low,night
+58,69,F,walk-in,2026-02-06 19:08:38.275904,green,fever,57,150,yes,2,imaging,,no,discharged,no,no,medium,night
+59,1,M,walk-in,2026-02-09 08:02:38.275940,yellow,headache,45,164,yes,4,none,,yes,admitted,no,no,high,evening
+60,88,F,walk-in,2026-02-09 23:04:38.275980,green,abdominal pain,168,276,yes,3,labs,74.0,no,discharged,no,no,low,night
+61,22,M,walk-in,2026-02-06 05:29:38.276016,green,headache,129,210,yes,1,labs,111.0,yes,transferred,no,no,high,night
+62,63,M,walk-in,2026-02-04 17:20:38.276050,green,vomiting,163,287,yes,3,labs,49.0,no,discharged,no,yes,low,evening
+63,71,F,walk-in,2026-02-08 21:02:38.276080,red,abdominal pain,3,233,yes,3,none,,yes,discharged,no,no,medium,night
+64,35,M,walk-in,2026-02-06 17:54:38.276118,yellow,fever,76,232,yes,4,labs,105.0,no,discharged,no,no,low,night
+65,60,M,walk-in,2026-02-05 11:56:38.276156,green,vomiting,47,164,yes,5,none,,yes,admitted,no,no,medium,evening
+66,39,M,walk-in,2026-02-08 12:12:38.276196,yellow,bleeding,16,299,yes,3,imaging,,yes,discharged,no,no,high,night
+67,30,M,walk-in,2026-02-10 08:19:38.276233,green,bleeding,98,321,yes,5,both,98.0,yes,discharged,no,no,low,day
+68,50,M,walk-in,2026-02-06 10:55:38.276272,yellow,abdominal pain,51,234,yes,4,both,117.0,no,discharged,no,no,high,evening
+69,49,M,walk-in,2026-02-08 22:19:38.276310,green,vomiting,76,271,yes,1,none,,yes,discharged,no,no,low,day
+70,5,M,walk-in,2026-02-06 01:55:38.276349,yellow,headache,84,224,yes,6,both,51.0,no,discharged,no,no,low,day
+71,54,M,walk-in,2026-02-07 12:58:38.276381,green,abdominal pain,162,370,yes,6,none,,no,discharged,no,no,high,night
+72,10,F,ambulance,2026-02-06 22:39:38.276425,orange,headache,23,134,yes,6,imaging,,no,admitted,no,no,high,day
+73,78,M,walk-in,2026-02-04 03:55:38.276445,green,abdominal pain,140,252,yes,6,none,,no,transferred,no,no,medium,evening
+74,21,F,walk-in,2026-02-05 04:40:38.276463,green,abdominal pain,72,216,yes,5,labs,103.0,no,discharged,no,no,high,day
+75,28,M,walk-in,2026-02-06 17:49:38.276482,green,bleeding,109,342,yes,4,imaging,,no,admitted,no,no,low,evening
+76,37,F,walk-in,2026-02-08 02:45:38.276511,yellow,bleeding,47,248,yes,1,labs,51.0,no,discharged,no,no,low,day
+77,29,M,walk-in,2026-02-04 18:27:38.276552,green,vomiting,80,339,yes,4,none,,no,admitted,no,no,low,evening
+78,31,M,walk-in,2026-02-09 16:34:38.276592,yellow,abdominal pain,72,343,yes,5,imaging,,yes,admitted,no,no,low,day
+79,73,M,walk-in,2026-02-05 15:50:38.276611,green,fever,79,321,yes,1,none,,no,admitted,no,no,low,night
+80,83,F,walk-in,2026-02-04 09:48:38.276642,green,diarrhea,174,208,yes,5,none,,no,discharged,no,no,high,night
+81,57,M,walk-in,2026-02-08 02:29:38.276682,green,diarrhea,159,218,yes,6,labs,36.0,yes,discharged,no,no,low,night
+82,33,F,walk-in,2026-02-06 05:29:38.276718,orange,fever,30,102,yes,5,imaging,,no,discharged,no,no,high,night
+83,81,M,ambulance,2026-02-04 01:52:38.276754,red,vomiting,6,211,yes,1,both,46.0,no,discharged,no,no,high,evening
+84,20,F,walk-in,2026-02-03 18:28:38.276791,yellow,fever,71,123,yes,6,none,,yes,discharged,no,no,high,night
+85,28,M,walk-in,2026-02-05 17:48:38.276836,yellow,fever,44,129,yes,2,labs,73.0,no,admitted,no,no,high,night
+86,90,M,walk-in,2026-02-04 02:58:38.276876,yellow,abdominal pain,28,175,yes,4,both,30.0,no,discharged,no,no,high,day
+87,84,F,walk-in,2026-02-09 03:55:38.276919,yellow,abdominal pain,24,72,yes,6,both,69.0,no,discharged,no,no,medium,night
+88,56,M,walk-in,2026-02-09 09:28:38.276961,yellow,vomiting,40,330,yes,3,labs,93.0,no,discharged,no,no,low,evening
+89,64,M,ambulance,2026-02-08 20:11:38.276996,red,bleeding,9,96,yes,4,labs,37.0,yes,discharged,no,no,low,day
+90,90,F,walk-in,2026-02-08 05:08:38.277033,green,diarrhea,78,206,yes,5,labs,37.0,yes,discharged,no,no,medium,night
+91,12,F,walk-in,2026-02-04 02:52:38.277066,yellow,bleeding,19,166,yes,4,imaging,,yes,discharged,no,no,low,evening
+92,0,F,walk-in,2026-02-07 20:46:38.277100,green,fever,54,281,yes,3,both,35.0,no,discharged,no,no,medium,night
+93,16,F,walk-in,2026-02-05 14:06:38.277134,green,diarrhea,151,257,yes,2,labs,65.0,no,discharged,no,no,high,day
+94,28,M,walk-in,2026-02-08 04:24:38.277170,green,bleeding,133,416,yes,1,both,35.0,no,admitted,no,no,medium,night
+95,27,F,walk-in,2026-02-03 21:45:38.277205,green,fever,165,235,yes,3,labs,117.0,no,discharged,no,no,high,night
+96,52,F,walk-in,2026-02-08 01:46:38.277240,green,bleeding,172,340,yes,3,labs,42.0,no,discharged,no,no,high,evening
+97,82,M,ambulance,2026-02-08 12:02:38.277276,orange,vomiting,21,317,yes,6,labs,104.0,no,discharged,no,no,medium,evening
+98,56,F,walk-in,2026-02-04 18:29:38.277312,green,fever,33,233,yes,4,labs,110.0,yes,admitted,no,no,low,day
+99,74,F,ambulance,2026-02-07 01:51:38.277350,red,diarrhea,3,107,yes,6,imaging,,no,admitted,no,no,low,evening
+100,74,M,walk-in,2026-02-10 09:56:38.277389,green,bleeding,175,219,yes,6,both,46.0,yes,discharged,no,no,medium,night
+101,53,M,walk-in,2026-02-08 12:16:38.277430,orange,fever,10,189,yes,2,labs,48.0,yes,discharged,no,no,high,day
+102,43,F,walk-in,2026-02-08 17:04:38.277471,green,abdominal pain,46,215,yes,1,both,55.0,no,discharged,no,no,medium,day
+103,2,F,walk-in,2026-02-09 17:31:38.277509,yellow,headache,61,285,yes,1,imaging,,no,admitted,no,no,medium,day
+104,17,M,walk-in,2026-02-04 21:35:38.277547,green,abdominal pain,135,211,yes,2,labs,84.0,no,admitted,no,no,high,night
+105,86,M,walk-in,2026-02-10 06:34:38.277586,green,vomiting,77,359,yes,5,none,,yes,discharged,no,no,low,day
+106,83,F,walk-in,2026-02-04 15:43:38.277626,green,fever,150,316,yes,2,both,70.0,no,admitted,no,no,low,night
+107,50,M,ambulance,2026-02-08 04:11:38.277662,orange,diarrhea,30,183,yes,6,labs,79.0,yes,admitted,no,no,low,day
+108,90,M,walk-in,2026-02-07 03:39:38.277698,green,vomiting,105,374,yes,6,imaging,,yes,discharged,no,no,low,evening
+109,81,F,walk-in,2026-02-07 17:00:38.277740,green,diarrhea,175,301,yes,5,both,53.0,no,admitted,no,no,medium,day
+110,80,M,walk-in,2026-02-04 13:33:38.277785,green,abdominal pain,110,400,yes,3,none,,no,discharged,no,no,low,day
+111,56,M,walk-in,2026-02-06 10:15:38.277828,yellow,diarrhea,40,127,yes,6,none,,no,discharged,no,no,high,night
+112,79,M,walk-in,2026-02-09 10:52:38.277871,yellow,fever,80,183,yes,6,imaging,,no,admitted,no,no,low,evening
+113,33,F,walk-in,2026-02-09 14:50:38.277912,yellow,vomiting,32,198,yes,6,none,,yes,discharged,no,no,low,day
+114,34,F,ambulance,2026-02-05 06:01:38.277951,orange,headache,12,181,yes,1,both,93.0,no,admitted,no,no,high,night
+115,10,M,walk-in,2026-02-09 19:43:38.277993,green,fever,50,332,yes,6,labs,73.0,yes,admitted,no,no,high,night
+116,65,F,walk-in,2026-02-06 02:21:38.278033,yellow,vomiting,17,275,yes,6,none,,yes,transferred,no,no,low,day
+117,25,F,ambulance,2026-02-05 06:16:38.278072,orange,bleeding,10,44,yes,1,none,,yes,discharged,no,no,low,night
+118,59,M,walk-in,2026-02-04 14:41:38.278116,yellow,diarrhea,40,280,yes,4,both,32.0,no,discharged,no,no,medium,night
+119,11,M,walk-in,2026-02-08 23:22:38.278157,green,vomiting,35,155,yes,3,none,,yes,discharged,no,no,low,night
+120,61,M,ambulance,2026-02-08 05:50:38.278198,orange,abdominal pain,17,102,yes,1,imaging,,yes,discharged,no,yes,low,night
+121,64,F,walk-in,2026-02-05 18:26:38.278237,green,diarrhea,106,397,yes,3,imaging,,yes,discharged,no,no,low,day
+122,49,M,walk-in,2026-02-09 14:23:38.278277,green,bleeding,113,160,yes,2,imaging,,yes,discharged,no,no,low,night
+123,70,M,ambulance,2026-02-06 10:59:38.278317,orange,abdominal pain,5,178,yes,6,labs,81.0,no,discharged,no,no,medium,night
+124,80,F,walk-in,2026-02-06 07:05:38.278358,yellow,diarrhea,66,276,yes,5,none,,no,discharged,no,no,medium,day
+125,11,F,walk-in,2026-02-05 12:31:38.278397,green,diarrhea,73,173,yes,6,none,,no,admitted,no,no,medium,night
+126,78,M,walk-in,2026-02-08 02:33:38.278443,green,abdominal pain,127,319,yes,4,both,59.0,no,admitted,no,no,high,day
+127,7,M,walk-in,2026-02-06 20:07:38.278484,green,diarrhea,98,377,yes,5,labs,95.0,no,discharged,no,no,medium,evening
+128,1,M,walk-in,2026-02-06 01:47:38.278557,green,fever,115,228,yes,2,labs,99.0,no,discharged,no,no,high,evening
+129,73,M,walk-in,2026-02-06 21:20:38.278601,yellow,bleeding,37,281,yes,1,both,66.0,no,discharged,no,no,high,day
+130,89,M,walk-in,2026-02-09 18:32:38.278644,yellow,bleeding,46,140,yes,6,none,,no,discharged,no,no,medium,day
+131,17,M,walk-in,2026-02-10 09:03:38.278687,green,headache,175,364,yes,5,both,103.0,no,discharged,no,no,high,evening
+132,18,M,walk-in,2026-02-03 20:03:38.278757,red,bleeding,8,273,yes,1,none,,no,discharged,no,no,low,evening
+133,68,M,ambulance,2026-02-04 02:21:38.278802,orange,bleeding,12,105,yes,1,none,,no,discharged,no,no,low,night
+134,82,M,walk-in,2026-02-03 22:09:38.278876,green,fever,90,204,yes,1,both,106.0,no,discharged,no,no,low,day
+135,85,F,walk-in,2026-02-03 19:43:38.278920,yellow,bleeding,15,103,yes,1,none,,yes,discharged,no,no,medium,night
+136,51,F,ambulance,2026-02-05 19:54:38.278986,orange,abdominal pain,20,115,yes,2,none,,no,discharged,no,no,medium,night
+137,81,F,walk-in,2026-02-06 00:35:38.279026,green,headache,179,211,yes,2,none,,no,transferred,no,no,medium,night
+138,52,M,walk-in,2026-02-07 13:56:38.279091,green,abdominal pain,80,195,yes,4,both,113.0,no,discharged,no,no,high,evening
+139,48,F,ambulance,2026-02-07 17:54:38.279135,red,fever,4,151,yes,4,imaging,,no,transferred,no,no,high,day
+140,26,M,walk-in,2026-02-06 17:10:38.279181,green,fever,72,169,yes,5,labs,95.0,yes,discharged,no,no,high,day
+141,21,F,walk-in,2026-02-05 19:32:38.279227,green,headache,144,391,yes,1,none,,yes,discharged,no,no,high,day
+142,17,M,walk-in,2026-02-10 15:00:38.279271,green,abdominal pain,174,410,yes,3,both,109.0,no,discharged,no,no,high,night
+143,23,M,walk-in,2026-02-04 07:27:38.279311,green,diarrhea,61,183,yes,2,labs,112.0,no,discharged,no,no,high,night
+144,28,F,walk-in,2026-02-06 13:19:38.279349,yellow,diarrhea,84,171,yes,6,none,,yes,discharged,no,no,high,evening
+145,85,M,walk-in,2026-02-08 22:06:38.279391,yellow,headache,53,298,yes,2,labs,99.0,yes,discharged,no,no,low,night
+146,14,F,walk-in,2026-02-04 01:22:38.279434,green,bleeding,56,292,yes,4,none,,yes,admitted,no,no,high,night
+147,37,F,walk-in,2026-02-07 20:36:38.279506,yellow,diarrhea,79,134,yes,4,imaging,,yes,discharged,no,no,medium,night
+148,72,F,walk-in,2026-02-04 16:46:38.279552,yellow,vomiting,24,72,yes,5,labs,96.0,yes,discharged,no,yes,high,day
+149,81,M,walk-in,2026-02-07 09:56:38.279591,green,bleeding,140,175,yes,1,none,,no,discharged,no,no,medium,night
+150,6,M,walk-in,2026-02-04 13:20:38.279635,green,vomiting,64,359,yes,1,none,,no,discharged,no,no,medium,evening
+151,49,F,walk-in,2026-02-08 16:52:38.279671,green,bleeding,121,347,yes,5,none,,yes,discharged,no,no,low,night
+152,39,M,ambulance,2026-02-05 08:21:38.279715,orange,vomiting,14,270,yes,2,none,,yes,discharged,no,no,high,day
+153,20,M,walk-in,2026-02-08 03:33:38.279758,yellow,vomiting,86,301,yes,4,labs,66.0,yes,discharged,no,no,medium,evening
+154,0,M,walk-in,2026-02-06 06:40:38.279797,yellow,vomiting,55,116,yes,1,imaging,,yes,admitted,no,no,low,day
+155,17,M,walk-in,2026-02-04 10:28:38.279836,yellow,headache,66,320,yes,4,none,,no,transferred,no,no,low,night
+156,51,M,walk-in,2026-02-06 17:34:38.279985,green,bleeding,153,374,yes,5,none,,yes,discharged,no,no,low,evening
+157,71,M,walk-in,2026-02-05 01:49:38.280038,yellow,bleeding,44,221,yes,3,labs,115.0,no,discharged,no,no,high,day
+158,88,M,walk-in,2026-02-06 23:52:38.280083,yellow,diarrhea,86,260,yes,4,none,,no,admitted,no,no,medium,night
+159,27,M,ambulance,2026-02-08 03:00:38.280126,red,fever,8,278,yes,2,none,,no,discharged,no,no,low,day
+160,24,F,walk-in,2026-02-04 11:02:38.280170,green,fever,149,233,yes,4,labs,40.0,yes,transferred,no,no,medium,day
+161,25,M,walk-in,2026-02-06 10:00:38.280212,yellow,diarrhea,36,75,yes,5,labs,83.0,no,discharged,no,no,medium,day
+162,28,F,walk-in,2026-02-08 22:16:38.280286,yellow,diarrhea,51,341,yes,3,both,98.0,no,admitted,no,no,high,evening
+163,1,F,walk-in,2026-02-05 03:58:38.280332,green,diarrhea,112,228,yes,4,labs,69.0,yes,discharged,no,no,high,night
+164,33,M,walk-in,2026-02-07 10:54:38.280382,green,fever,86,274,yes,2,both,68.0,yes,discharged,no,no,high,day
+165,26,M,walk-in,2026-02-09 13:19:38.280428,green,vomiting,112,340,yes,1,labs,53.0,no,discharged,no,no,high,day
+166,65,F,walk-in,2026-02-03 22:55:38.280476,green,fever,76,255,yes,3,both,72.0,yes,discharged,no,no,medium,day
+167,2,F,walk-in,2026-02-04 03:24:38.280521,green,fever,152,349,yes,4,labs,76.0,no,discharged,no,no,medium,day
+168,57,F,walk-in,2026-02-09 18:40:38.280569,green,vomiting,108,188,yes,5,labs,66.0,yes,discharged,no,no,high,night
+169,61,F,walk-in,2026-02-04 04:40:38.280613,yellow,headache,51,152,yes,2,none,,yes,discharged,no,no,low,day
+170,34,F,walk-in,2026-02-05 11:35:38.280656,green,fever,174,355,yes,1,both,84.0,no,transferred,no,no,low,day
+171,40,F,walk-in,2026-02-04 16:00:38.280695,green,diarrhea,58,228,yes,3,none,,no,discharged,no,no,medium,evening
+172,16,M,walk-in,2026-02-03 20:58:38.280734,green,headache,163,411,yes,3,none,,no,discharged,no,no,medium,day
+173,86,M,walk-in,2026-02-07 09:13:38.280779,green,diarrhea,32,95,yes,2,labs,56.0,no,discharged,no,no,low,day
+174,17,F,walk-in,2026-02-10 11:25:38.280826,green,abdominal pain,137,390,yes,5,imaging,,no,admitted,no,no,high,night
+175,62,F,walk-in,2026-02-09 06:28:38.280866,green,vomiting,39,140,yes,4,none,,yes,discharged,no,no,high,day
+176,89,F,ambulance,2026-02-06 03:52:38.280904,orange,abdominal pain,27,232,yes,1,none,,no,discharged,no,no,high,evening
+177,0,M,walk-in,2026-02-08 10:12:38.280939,green,vomiting,162,312,yes,1,imaging,,no,discharged,no,no,medium,night
+178,18,F,walk-in,2026-02-08 18:34:38.280977,orange,fever,30,263,yes,2,imaging,,no,discharged,no,no,medium,evening
+179,47,M,walk-in,2026-02-07 08:47:38.281015,yellow,abdominal pain,21,313,yes,2,both,62.0,yes,discharged,no,no,medium,night
+180,64,M,ambulance,2026-02-08 20:03:38.281052,orange,diarrhea,23,259,yes,4,labs,39.0,yes,discharged,no,no,high,day
+181,31,F,walk-in,2026-02-04 21:12:38.281090,orange,bleeding,26,183,yes,5,imaging,,yes,discharged,no,no,high,evening
+182,9,M,walk-in,2026-02-09 18:17:38.281129,green,headache,88,130,yes,2,none,,no,discharged,no,no,high,day
+183,90,M,ambulance,2026-02-05 00:07:38.281165,red,headache,9,138,yes,1,labs,77.0,yes,admitted,no,no,medium,night
+184,50,F,walk-in,2026-02-04 20:36:38.281204,green,vomiting,177,442,yes,3,labs,110.0,yes,discharged,no,no,medium,day
+185,6,F,ambulance,2026-02-04 06:59:38.281246,red,headache,9,82,yes,4,labs,31.0,yes,discharged,no,no,high,night
+186,47,M,walk-in,2026-02-05 19:42:38.281286,green,headache,158,297,yes,2,both,61.0,no,discharged,no,no,high,night
+187,67,F,walk-in,2026-02-04 16:51:38.281324,yellow,headache,73,296,yes,4,imaging,,yes,discharged,no,no,medium,day
+188,26,M,walk-in,2026-02-04 23:26:38.281399,orange,vomiting,12,254,yes,1,imaging,,no,discharged,no,yes,high,day
+189,79,F,walk-in,2026-02-06 16:26:38.281439,yellow,bleeding,57,87,yes,2,imaging,,no,discharged,no,yes,high,evening
+190,4,F,walk-in,2026-02-04 13:23:38.281476,green,diarrhea,86,350,yes,3,none,,no,discharged,no,no,medium,night
+191,7,F,walk-in,2026-02-07 18:24:38.281518,green,headache,168,371,yes,6,both,82.0,no,discharged,no,no,high,day
+192,38,M,walk-in,2026-02-04 12:02:38.281539,yellow,vomiting,89,341,yes,5,labs,56.0,no,discharged,no,no,high,day
+193,79,F,walk-in,2026-02-03 23:07:38.281557,green,fever,82,129,yes,3,labs,31.0,no,discharged,no,no,high,day
+194,30,F,walk-in,2026-02-10 03:25:38.281578,green,vomiting,61,274,yes,6,labs,41.0,yes,discharged,no,yes,low,day
+195,45,M,walk-in,2026-02-09 22:21:38.281597,yellow,vomiting,32,270,yes,4,labs,97.0,no,discharged,no,yes,high,evening
+196,14,M,walk-in,2026-02-09 10:58:38.281617,green,bleeding,89,378,yes,6,imaging,,yes,discharged,no,no,medium,night
+197,76,M,ambulance,2026-02-04 14:18:38.281638,orange,diarrhea,20,202,yes,6,labs,58.0,no,discharged,no,no,high,day
+198,75,F,walk-in,2026-02-06 03:40:38.281656,orange,vomiting,23,274,yes,3,none,,yes,discharged,no,no,medium,day
+199,60,F,walk-in,2026-02-10 08:32:38.281674,green,abdominal pain,108,238,yes,5,both,61.0,no,discharged,no,yes,high,evening
+200,24,M,walk-in,2026-02-04 05:11:38.281693,yellow,headache,23,171,yes,3,labs,68.0,no,admitted,no,no,low,day
+201,32,F,walk-in,2026-02-06 08:27:38.281711,green,diarrhea,156,437,yes,5,none,,yes,discharged,no,no,low,night
+202,0,F,walk-in,2026-02-05 01:27:38.281750,yellow,diarrhea,22,133,yes,2,labs,66.0,no,discharged,no,no,high,evening
+203,19,F,walk-in,2026-02-06 14:22:38.281796,green,abdominal pain,168,346,yes,2,none,,yes,discharged,no,no,medium,evening
+204,17,F,walk-in,2026-02-09 04:19:38.281818,yellow,headache,38,215,yes,5,none,,no,discharged,no,no,high,evening
+205,16,F,walk-in,2026-02-04 18:47:38.281836,green,headache,146,388,yes,2,none,,yes,discharged,no,no,high,evening
+206,22,M,walk-in,2026-02-04 16:45:38.281855,yellow,headache,68,150,yes,3,both,93.0,yes,discharged,no,no,high,evening
+207,49,M,walk-in,2026-02-07 01:49:38.281874,green,diarrhea,96,192,yes,3,none,,no,discharged,no,no,high,day
+208,55,M,walk-in,2026-02-08 03:23:38.281895,green,vomiting,143,399,yes,3,both,110.0,yes,discharged,no,no,high,evening
+209,2,F,walk-in,2026-02-09 10:04:38.281913,red,abdominal pain,9,235,yes,1,none,,yes,discharged,no,no,medium,evening
+210,70,F,ambulance,2026-02-06 01:07:38.281944,orange,bleeding,28,116,yes,5,none,,no,discharged,no,no,medium,evening
+211,43,M,walk-in,2026-02-09 08:29:38.281963,yellow,diarrhea,46,204,yes,3,labs,111.0,no,discharged,no,no,low,evening
+212,48,M,walk-in,2026-02-07 04:44:38.281982,green,headache,120,182,yes,2,none,,yes,admitted,no,no,medium,day
+213,29,M,walk-in,2026-02-07 06:16:38.282015,green,bleeding,173,296,yes,6,imaging,,no,admitted,no,no,low,evening
+214,50,M,walk-in,2026-02-04 18:29:38.282049,green,diarrhea,131,389,yes,2,none,,yes,discharged,no,no,high,night
+215,73,F,walk-in,2026-02-05 21:29:38.282080,green,vomiting,118,281,yes,5,labs,75.0,yes,discharged,no,no,low,day
+216,62,M,walk-in,2026-02-08 10:04:38.282110,green,diarrhea,128,299,yes,5,imaging,,yes,discharged,no,no,low,day
+217,57,M,walk-in,2026-02-10 10:57:38.282141,green,abdominal pain,129,299,yes,1,both,61.0,yes,discharged,no,no,high,evening
+218,57,M,walk-in,2026-02-06 20:49:38.282172,yellow,diarrhea,59,147,yes,3,imaging,,no,discharged,no,no,medium,day
+219,41,M,walk-in,2026-02-09 13:00:38.282203,green,vomiting,177,339,yes,4,both,113.0,yes,discharged,no,no,high,day
+220,85,M,walk-in,2026-02-06 06:38:38.282235,green,headache,75,315,yes,6,both,47.0,no,admitted,no,no,high,night
+221,39,M,walk-in,2026-02-06 11:03:38.282264,green,vomiting,124,252,yes,5,imaging,,no,admitted,no,no,low,day
+222,33,F,walk-in,2026-02-04 09:05:38.282294,yellow,abdominal pain,57,322,yes,1,imaging,,yes,admitted,no,no,medium,day
+223,74,F,walk-in,2026-02-08 21:02:38.282338,red,headache,10,290,yes,3,imaging,,yes,discharged,no,no,medium,day
+224,69,F,walk-in,2026-02-06 09:50:38.282373,yellow,headache,32,332,yes,6,imaging,,yes,discharged,no,no,medium,day
+225,74,F,walk-in,2026-02-09 20:10:38.282409,green,bleeding,40,271,yes,3,labs,42.0,no,discharged,no,no,medium,day
+226,24,F,walk-in,2026-02-09 11:37:38.282444,orange,diarrhea,23,303,yes,3,labs,67.0,yes,discharged,no,no,high,day
+227,69,M,walk-in,2026-02-05 17:17:38.282476,green,abdominal pain,76,196,yes,6,labs,105.0,no,discharged,no,no,medium,night
+228,19,M,walk-in,2026-02-05 08:26:38.282512,green,bleeding,32,231,yes,5,both,91.0,yes,discharged,no,no,medium,day
+229,83,M,walk-in,2026-02-08 16:49:38.282552,yellow,fever,72,315,yes,1,labs,30.0,no,admitted,no,no,high,evening
+230,53,F,walk-in,2026-02-04 22:15:38.282588,green,fever,87,264,yes,3,imaging,,yes,discharged,no,no,medium,evening
+231,77,F,walk-in,2026-02-08 14:32:38.282629,green,bleeding,116,314,yes,1,both,116.0,no,discharged,no,no,high,evening
+232,36,M,ambulance,2026-02-10 00:06:38.282693,red,vomiting,10,54,yes,2,both,95.0,no,discharged,no,no,high,night
+233,55,M,walk-in,2026-02-06 14:34:38.282763,green,bleeding,155,413,yes,1,both,115.0,yes,discharged,no,no,medium,day
+234,0,F,walk-in,2026-02-08 00:00:38.282810,red,bleeding,4,63,yes,2,none,,no,admitted,no,no,medium,evening
+235,43,F,walk-in,2026-02-09 00:53:38.282849,yellow,diarrhea,90,265,yes,2,none,,no,admitted,no,no,low,day
+236,86,F,walk-in,2026-02-10 05:51:38.282888,yellow,bleeding,45,207,yes,6,imaging,,no,transferred,no,no,medium,evening
+237,51,M,walk-in,2026-02-10 10:35:38.282925,yellow,bleeding,23,94,yes,6,imaging,,yes,transferred,no,no,low,day
+238,29,F,walk-in,2026-02-08 03:19:38.282947,green,diarrhea,167,334,yes,2,labs,54.0,no,admitted,no,no,high,day
+239,56,F,walk-in,2026-02-06 09:14:38.282967,green,diarrhea,110,225,yes,1,labs,111.0,yes,discharged,no,no,medium,night
+240,40,F,ambulance,2026-02-08 01:52:38.282986,orange,fever,11,77,yes,1,imaging,,yes,discharged,no,no,low,day
+241,79,F,walk-in,2026-02-07 02:51:38.283004,green,headache,119,213,yes,6,labs,76.0,no,discharged,no,no,low,night
+242,51,M,walk-in,2026-02-07 08:46:38.283022,yellow,fever,61,192,yes,1,labs,65.0,yes,transferred,no,no,low,night
+243,82,M,walk-in,2026-02-04 14:01:38.283044,yellow,fever,16,246,yes,3,both,82.0,yes,admitted,no,no,high,evening
+244,36,F,walk-in,2026-02-08 10:15:38.283078,green,headache,34,89,yes,1,imaging,,no,discharged,no,no,low,day
+245,47,M,walk-in,2026-02-06 14:41:38.283109,yellow,abdominal pain,77,258,yes,4,none,,no,discharged,no,no,high,day
+246,49,M,walk-in,2026-02-05 22:04:38.283140,yellow,fever,67,168,yes,5,imaging,,no,discharged,no,no,low,day
+247,15,M,walk-in,2026-02-09 18:41:38.283172,yellow,fever,42,297,yes,1,labs,34.0,no,admitted,no,no,high,evening
+248,33,F,ambulance,2026-02-10 08:33:38.283208,red,diarrhea,1,259,yes,6,labs,79.0,no,admitted,no,no,high,day
+249,85,M,walk-in,2026-02-04 18:54:38.283244,green,fever,100,188,yes,3,labs,89.0,no,discharged,no,no,medium,night
+250,69,F,walk-in,2026-02-06 14:09:38.283280,yellow,bleeding,51,153,yes,5,imaging,,yes,discharged,no,yes,medium,day
+251,82,F,walk-in,2026-02-05 22:03:38.283317,green,abdominal pain,115,415,yes,5,none,,yes,discharged,no,yes,low,day
+252,42,M,walk-in,2026-02-08 18:00:38.283353,yellow,vomiting,70,265,yes,5,none,,yes,discharged,no,no,low,day
+253,90,F,ambulance,2026-02-09 04:32:38.283386,orange,headache,23,319,yes,6,labs,68.0,no,discharged,no,no,low,day
+254,26,M,walk-in,2026-02-06 07:56:38.283404,orange,headache,8,138,yes,3,none,,yes,discharged,no,no,low,day
+255,38,F,walk-in,2026-02-07 06:23:38.283424,yellow,vomiting,17,164,yes,3,imaging,,no,discharged,no,no,medium,evening
+256,23,M,walk-in,2026-02-09 10:36:38.283449,green,abdominal pain,73,203,yes,5,none,,no,admitted,no,no,medium,night
+257,49,M,ambulance,2026-02-05 17:32:38.283467,orange,bleeding,27,87,yes,5,none,,yes,discharged,no,yes,medium,night
+258,51,F,walk-in,2026-02-07 01:04:38.283486,yellow,vomiting,69,245,yes,5,both,99.0,no,discharged,no,no,low,evening
+259,65,F,ambulance,2026-02-06 00:21:38.283504,red,fever,5,257,yes,5,both,71.0,no,discharged,no,no,high,night
+260,58,M,walk-in,2026-02-06 05:00:38.283524,yellow,vomiting,48,279,yes,1,labs,50.0,yes,discharged,no,no,low,day
+261,78,F,walk-in,2026-02-05 15:36:38.283543,yellow,vomiting,22,312,yes,5,none,,no,discharged,no,no,medium,night
+262,60,M,walk-in,2026-02-07 21:47:38.283561,green,abdominal pain,89,389,yes,6,imaging,,no,discharged,no,no,low,evening
+263,24,M,walk-in,2026-02-10 12:58:38.283580,green,diarrhea,40,157,yes,3,labs,58.0,yes,discharged,no,no,high,day
+264,45,F,walk-in,2026-02-07 04:54:38.283598,green,abdominal pain,31,89,yes,5,none,,yes,discharged,no,no,medium,day
+265,33,F,walk-in,2026-02-04 05:21:38.283617,green,fever,84,294,yes,3,none,,no,discharged,no,no,high,evening
+266,27,M,walk-in,2026-02-08 18:47:38.283637,green,diarrhea,41,127,yes,1,imaging,,no,discharged,no,no,medium,evening
+267,69,M,walk-in,2026-02-07 04:48:38.283655,yellow,headache,33,65,yes,1,none,,no,discharged,no,no,high,evening
+268,45,F,walk-in,2026-02-06 14:40:38.283675,green,bleeding,40,165,yes,4,both,74.0,no,discharged,no,yes,high,day
+269,83,F,walk-in,2026-02-04 07:49:38.283693,green,headache,155,306,yes,5,none,,yes,discharged,no,no,low,evening
+270,31,M,walk-in,2026-02-05 07:35:38.283711,green,abdominal pain,31,128,yes,1,none,,yes,discharged,no,no,low,night
+271,51,M,walk-in,2026-02-10 11:13:38.283731,green,abdominal pain,142,229,yes,2,labs,61.0,yes,transferred,no,no,low,day
+272,11,F,walk-in,2026-02-06 07:19:38.283755,green,fever,61,102,yes,4,none,,no,admitted,no,no,low,night
+273,55,F,walk-in,2026-02-04 13:24:38.283773,green,vomiting,37,138,yes,3,none,,no,transferred,no,no,high,night
+274,43,F,walk-in,2026-02-04 16:25:38.283790,green,diarrhea,76,194,yes,6,imaging,,no,discharged,no,no,low,evening
+275,90,M,walk-in,2026-02-09 09:00:38.283810,yellow,abdominal pain,35,166,yes,2,both,40.0,no,admitted,no,no,low,day
+276,76,M,walk-in,2026-02-09 01:42:38.283828,orange,bleeding,25,134,yes,2,labs,32.0,yes,discharged,no,no,low,night
+277,32,M,walk-in,2026-02-06 03:32:38.283847,green,headache,179,327,yes,4,none,,no,discharged,no,no,medium,night
+278,57,F,walk-in,2026-02-09 03:06:38.283866,yellow,abdominal pain,75,245,yes,2,labs,54.0,yes,discharged,no,yes,low,evening
+279,48,M,walk-in,2026-02-05 07:27:38.283884,green,abdominal pain,52,322,yes,3,none,,no,discharged,no,yes,low,night
+280,74,F,walk-in,2026-02-10 04:32:38.283903,green,fever,54,269,yes,6,none,,no,discharged,no,no,high,day
+281,52,M,walk-in,2026-02-10 13:00:38.283922,orange,diarrhea,19,277,yes,1,both,52.0,yes,discharged,no,no,medium,day
+282,5,M,walk-in,2026-02-07 13:03:38.283942,yellow,vomiting,45,128,yes,5,imaging,,yes,discharged,no,no,low,night
+283,81,F,walk-in,2026-02-05 10:45:38.283973,yellow,headache,56,286,yes,4,imaging,,yes,discharged,no,no,low,evening
+284,83,F,walk-in,2026-02-06 16:14:38.284015,yellow,diarrhea,56,320,yes,6,both,54.0,yes,discharged,no,no,medium,night
+285,88,M,walk-in,2026-02-05 06:32:38.284047,green,abdominal pain,78,131,yes,6,labs,75.0,no,discharged,no,yes,medium,night
+286,79,F,ambulance,2026-02-08 23:26:38.284066,red,vomiting,10,266,yes,4,both,34.0,no,discharged,no,no,high,day
+287,40,F,ambulance,2026-02-07 23:53:38.284086,orange,bleeding,28,182,yes,2,labs,104.0,no,admitted,no,no,medium,night
+288,54,M,walk-in,2026-02-05 00:57:38.284104,green,abdominal pain,149,305,yes,4,labs,52.0,no,discharged,no,no,low,evening
+289,19,M,walk-in,2026-02-05 13:39:38.284123,yellow,diarrhea,68,101,yes,6,none,,no,transferred,no,no,high,evening
+290,56,F,walk-in,2026-02-05 05:50:38.284140,green,abdominal pain,179,408,yes,5,labs,44.0,yes,discharged,no,no,medium,day
+291,62,M,walk-in,2026-02-06 11:40:38.284160,green,vomiting,75,194,yes,3,labs,68.0,no,discharged,no,no,low,evening
+292,3,M,walk-in,2026-02-05 00:21:38.284179,green,diarrhea,94,391,yes,4,imaging,,no,discharged,no,no,low,day
+293,8,M,walk-in,2026-02-05 14:30:38.284198,green,abdominal pain,137,419,yes,5,labs,61.0,yes,discharged,no,no,medium,evening
+294,22,M,walk-in,2026-02-04 12:32:38.284216,green,headache,108,406,yes,5,none,,no,admitted,no,no,low,day
+295,75,F,walk-in,2026-02-09 02:24:38.284234,yellow,vomiting,29,309,yes,5,labs,91.0,no,discharged,no,no,medium,night
+296,40,M,walk-in,2026-02-06 19:50:38.284252,yellow,diarrhea,52,351,yes,4,both,64.0,no,discharged,no,no,medium,evening
+297,2,M,walk-in,2026-02-05 10:48:38.284271,yellow,headache,15,216,yes,1,labs,94.0,no,discharged,no,no,high,day
+298,80,F,walk-in,2026-02-06 16:40:38.284289,green,abdominal pain,95,208,yes,2,both,79.0,no,discharged,no,no,medium,night
+299,72,M,walk-in,2026-02-07 07:33:38.284306,yellow,vomiting,36,289,yes,3,none,,no,discharged,no,no,high,evening
+300,76,M,walk-in,2026-02-10 07:54:38.284324,orange,headache,24,307,yes,5,none,,no,discharged,no,no,high,night
+301,5,F,walk-in,2026-02-10 09:30:38.284344,yellow,fever,26,187,yes,3,both,92.0,no,discharged,no,no,low,evening
+302,72,F,walk-in,2026-02-04 08:43:38.284362,yellow,fever,86,242,yes,4,imaging,,no,discharged,no,no,low,evening
+303,48,M,walk-in,2026-02-05 10:30:38.284381,yellow,headache,41,115,yes,5,both,98.0,no,discharged,no,no,medium,night
+304,75,F,walk-in,2026-02-07 16:47:38.284400,yellow,bleeding,22,318,yes,5,labs,61.0,yes,admitted,no,no,medium,day
+305,63,M,walk-in,2026-02-10 00:43:38.284418,yellow,headache,68,248,yes,3,both,72.0,no,admitted,no,no,high,evening
+306,85,M,walk-in,2026-02-08 12:45:38.284436,yellow,bleeding,42,272,yes,2,imaging,,no,discharged,no,no,low,night
+307,24,F,walk-in,2026-02-07 05:34:38.284453,yellow,fever,48,178,yes,3,imaging,,yes,discharged,no,no,medium,evening
+308,36,F,walk-in,2026-02-04 12:41:38.284472,green,vomiting,149,424,yes,6,both,105.0,no,discharged,no,no,high,day
+309,6,M,ambulance,2026-02-07 01:31:38.284491,orange,diarrhea,20,287,yes,6,both,118.0,yes,discharged,no,no,low,evening
+310,32,F,walk-in,2026-02-09 23:09:38.284512,green,abdominal pain,87,366,yes,2,none,,no,discharged,no,yes,high,evening
+311,50,F,walk-in,2026-02-04 05:27:38.284529,yellow,headache,83,157,yes,2,imaging,,no,discharged,no,no,high,evening
+312,10,F,walk-in,2026-02-08 23:21:38.284547,green,abdominal pain,109,273,yes,6,none,,no,admitted,no,no,medium,night
+313,64,F,walk-in,2026-02-07 06:41:38.284565,green,diarrhea,48,215,yes,3,none,,no,discharged,no,no,low,night
+314,48,F,walk-in,2026-02-08 10:50:38.284583,green,abdominal pain,59,232,yes,6,none,,yes,discharged,no,no,low,night
+315,63,M,walk-in,2026-02-05 05:02:38.284615,green,abdominal pain,38,274,yes,4,none,,yes,discharged,no,no,high,evening
+316,7,F,ambulance,2026-02-08 11:31:38.284657,orange,bleeding,14,98,yes,1,imaging,,yes,discharged,no,no,high,day
+317,56,F,walk-in,2026-02-09 15:59:38.284677,green,headache,168,338,yes,4,both,98.0,yes,discharged,no,no,high,evening
+318,26,F,walk-in,2026-02-07 07:20:38.284696,green,headache,36,325,yes,6,imaging,,yes,admitted,no,no,high,day
+319,46,M,walk-in,2026-02-04 08:23:38.284714,green,vomiting,110,404,yes,3,none,,yes,discharged,no,no,high,day
+320,55,M,walk-in,2026-02-05 05:31:38.284733,yellow,fever,16,133,yes,2,labs,62.0,yes,discharged,no,no,high,day
+321,85,F,walk-in,2026-02-08 07:23:38.284751,green,diarrhea,76,292,yes,1,imaging,,no,discharged,no,no,medium,night
+322,37,F,walk-in,2026-02-09 09:37:38.284769,yellow,headache,18,169,yes,6,imaging,,no,discharged,no,no,medium,night
+323,78,F,walk-in,2026-02-03 23:14:38.284795,yellow,diarrhea,81,258,yes,3,none,,no,discharged,no,no,medium,evening
+324,14,M,walk-in,2026-02-07 03:12:38.284814,yellow,diarrhea,74,135,yes,4,labs,61.0,no,discharged,no,no,high,night
+325,15,F,walk-in,2026-02-09 20:32:38.284833,yellow,fever,47,177,yes,2,none,,yes,discharged,no,yes,low,day
+326,45,M,walk-in,2026-02-09 01:14:38.284852,green,fever,38,220,yes,2,labs,83.0,yes,discharged,no,no,medium,evening
+327,12,F,walk-in,2026-02-06 17:34:38.284870,green,abdominal pain,106,269,yes,4,labs,95.0,no,discharged,no,no,low,night
+328,88,F,walk-in,2026-02-03 18:57:38.284889,yellow,bleeding,53,173,yes,4,labs,71.0,no,discharged,no,no,medium,night
+329,6,F,walk-in,2026-02-09 22:32:38.284907,green,fever,93,315,yes,4,imaging,,no,admitted,no,no,medium,night
+330,2,F,ambulance,2026-02-04 20:04:38.284928,red,abdominal pain,8,71,yes,1,labs,96.0,no,admitted,no,no,high,evening
+331,11,F,walk-in,2026-02-10 11:27:38.284947,yellow,fever,67,261,yes,6,both,38.0,no,discharged,no,yes,low,evening
+332,53,F,walk-in,2026-02-06 03:36:38.284965,yellow,abdominal pain,55,323,yes,4,none,,no,discharged,no,yes,low,day
+333,80,F,walk-in,2026-02-04 00:59:38.284984,green,abdominal pain,161,372,yes,2,imaging,,no,discharged,no,no,high,night
+334,31,F,walk-in,2026-02-07 21:47:38.285002,green,abdominal pain,67,287,yes,1,labs,40.0,yes,discharged,no,no,medium,day
+335,0,M,ambulance,2026-02-04 19:36:38.285020,orange,bleeding,21,106,yes,4,imaging,,no,admitted,no,no,medium,evening
+336,18,F,walk-in,2026-02-05 13:31:38.285042,yellow,fever,74,360,yes,1,both,88.0,no,discharged,no,no,high,night
+337,9,F,walk-in,2026-02-04 13:47:38.285072,green,headache,117,153,yes,1,both,42.0,no,discharged,no,no,low,night
+338,28,M,walk-in,2026-02-07 18:47:38.285113,yellow,vomiting,35,145,yes,3,both,112.0,no,admitted,no,no,high,night
+339,84,F,walk-in,2026-02-06 03:42:38.285138,yellow,bleeding,49,263,yes,4,none,,no,discharged,no,yes,medium,evening
+340,35,M,walk-in,2026-02-08 12:51:38.285157,yellow,diarrhea,75,290,yes,3,none,,no,discharged,no,no,high,evening
+341,47,M,walk-in,2026-02-10 13:30:38.285176,yellow,bleeding,52,213,yes,1,imaging,,no,discharged,no,no,low,evening
+342,38,M,ambulance,2026-02-09 11:36:38.285194,orange,bleeding,8,259,yes,2,labs,116.0,no,admitted,no,no,low,night
+343,1,F,walk-in,2026-02-07 16:09:38.285212,green,vomiting,163,306,yes,3,imaging,,no,admitted,no,no,high,night
+344,86,F,ambulance,2026-02-08 21:52:38.285231,orange,abdominal pain,25,319,yes,2,both,68.0,yes,discharged,no,yes,high,day
+345,21,F,walk-in,2026-02-09 18:53:38.285249,green,headache,56,236,yes,6,imaging,,yes,admitted,no,no,low,evening
+346,83,F,walk-in,2026-02-06 05:35:38.285268,orange,bleeding,21,156,yes,1,both,99.0,yes,discharged,no,no,low,day
+347,41,F,walk-in,2026-02-04 14:18:38.285287,green,vomiting,79,150,yes,6,labs,89.0,no,discharged,no,no,low,evening
+348,57,M,walk-in,2026-02-07 15:15:38.285306,green,abdominal pain,85,281,yes,2,labs,57.0,yes,discharged,no,no,medium,day
+349,44,F,walk-in,2026-02-04 13:04:38.285325,orange,diarrhea,12,100,yes,3,labs,110.0,no,discharged,no,no,low,evening
+350,11,F,walk-in,2026-02-05 09:45:38.285343,red,fever,0,61,yes,5,labs,105.0,no,discharged,no,yes,low,day
+351,56,M,walk-in,2026-02-04 00:18:38.285361,green,fever,71,106,yes,4,imaging,,yes,discharged,no,no,high,day
+352,83,M,ambulance,2026-02-10 04:50:38.285379,orange,vomiting,27,64,yes,2,none,,no,admitted,no,no,high,day
+353,45,M,walk-in,2026-02-04 08:27:38.285396,orange,headache,23,273,yes,2,labs,77.0,no,admitted,no,no,high,night
+354,69,F,walk-in,2026-02-07 08:50:38.285417,green,vomiting,157,456,yes,5,none,,yes,discharged,no,no,high,night
+355,19,M,ambulance,2026-02-07 09:26:38.285434,orange,headache,18,288,yes,3,labs,65.0,no,discharged,no,no,medium,night
+356,49,M,walk-in,2026-02-04 11:50:38.285453,green,bleeding,173,322,yes,6,imaging,,no,discharged,no,no,medium,night
+357,31,F,ambulance,2026-02-04 20:34:38.285472,orange,headache,29,62,yes,5,none,,no,admitted,no,no,medium,day
+358,78,F,walk-in,2026-02-10 15:59:38.285490,green,bleeding,55,116,yes,5,none,,yes,discharged,no,no,medium,evening
+359,42,F,walk-in,2026-02-09 14:14:38.285507,green,abdominal pain,96,316,yes,1,both,51.0,yes,discharged,no,no,high,night
+360,36,M,walk-in,2026-02-07 14:24:38.285526,green,headache,75,311,yes,3,labs,74.0,no,discharged,no,no,low,evening
+361,61,M,walk-in,2026-02-05 03:59:38.285545,green,fever,142,403,yes,1,both,71.0,yes,transferred,no,no,medium,night
+362,40,F,walk-in,2026-02-10 11:53:38.285562,yellow,bleeding,53,189,yes,5,imaging,,yes,discharged,no,no,low,day
+363,32,F,ambulance,2026-02-05 11:51:38.285581,red,diarrhea,4,124,yes,2,both,96.0,no,discharged,no,no,low,evening
+364,61,M,walk-in,2026-02-10 13:35:38.285598,green,fever,116,325,yes,6,imaging,,no,admitted,no,no,low,evening
+365,87,F,walk-in,2026-02-04 03:29:38.285618,green,headache,65,140,yes,3,labs,37.0,yes,discharged,no,no,high,night
+366,41,F,walk-in,2026-02-07 23:46:38.285637,yellow,vomiting,88,381,yes,6,both,35.0,yes,discharged,no,no,high,evening
+367,69,M,walk-in,2026-02-10 01:30:38.285655,yellow,diarrhea,30,270,yes,5,none,,yes,admitted,no,no,low,night
+368,7,M,walk-in,2026-02-05 11:06:38.285674,green,fever,61,348,yes,5,imaging,,no,discharged,no,no,low,night
+369,28,F,ambulance,2026-02-04 17:19:38.285693,orange,fever,24,100,yes,5,both,57.0,yes,discharged,no,no,low,day
+370,30,M,walk-in,2026-02-09 06:48:38.285710,green,headache,66,242,yes,3,none,,yes,admitted,no,no,high,day
+371,43,M,walk-in,2026-02-07 14:36:38.285728,green,diarrhea,144,223,yes,3,both,57.0,yes,discharged,no,no,high,day
+372,66,F,walk-in,2026-02-08 12:16:38.285746,yellow,abdominal pain,36,193,yes,6,labs,112.0,no,discharged,no,no,low,day
+373,6,M,walk-in,2026-02-07 00:12:38.285764,green,vomiting,152,232,yes,2,none,,no,discharged,no,no,low,night
+374,89,M,walk-in,2026-02-08 23:54:38.285782,green,diarrhea,149,396,yes,5,labs,53.0,yes,admitted,no,no,low,evening
+375,0,F,walk-in,2026-02-06 16:32:38.285800,green,headache,119,297,yes,2,both,33.0,yes,discharged,no,no,high,night
+376,42,M,walk-in,2026-02-09 18:38:38.285818,yellow,diarrhea,50,286,yes,3,both,87.0,no,discharged,no,no,medium,evening
+377,52,M,ambulance,2026-02-05 22:43:38.285837,orange,headache,6,80,yes,6,both,109.0,yes,discharged,no,no,low,day
+378,13,M,walk-in,2026-02-08 17:10:38.285854,green,vomiting,163,277,yes,5,labs,38.0,no,discharged,no,no,medium,night
+379,89,F,walk-in,2026-02-04 03:18:38.285872,green,bleeding,171,267,yes,3,none,,yes,admitted,no,no,medium,evening
+380,62,M,ambulance,2026-02-07 02:19:38.285890,orange,vomiting,6,266,yes,2,none,,no,discharged,no,no,low,night
+381,18,F,walk-in,2026-02-06 23:35:38.285908,green,abdominal pain,111,295,yes,1,none,,yes,discharged,no,no,low,night
+382,18,M,walk-in,2026-02-05 19:58:38.285926,yellow,headache,62,114,yes,4,imaging,,no,discharged,no,no,low,day
+383,22,F,walk-in,2026-02-05 02:04:38.285969,yellow,abdominal pain,22,277,yes,1,imaging,,no,discharged,no,no,low,day
+384,60,F,walk-in,2026-02-06 21:23:38.285989,green,headache,96,280,yes,2,imaging,,yes,admitted,no,no,medium,night
+385,12,M,walk-in,2026-02-04 19:10:38.286007,green,diarrhea,53,297,yes,4,none,,no,admitted,no,no,high,evening
+386,21,F,walk-in,2026-02-05 06:34:38.286026,green,headache,118,362,yes,4,labs,101.0,no,admitted,no,no,medium,day
+387,67,F,walk-in,2026-02-06 08:21:38.286045,yellow,diarrhea,36,289,yes,2,none,,yes,discharged,no,no,low,night
+388,88,F,walk-in,2026-02-06 01:56:38.286064,green,abdominal pain,128,386,yes,2,imaging,,no,admitted,no,no,low,night
+389,85,F,walk-in,2026-02-05 16:41:38.286082,yellow,fever,68,350,yes,6,none,,no,discharged,no,no,high,day
+390,5,F,walk-in,2026-02-06 23:10:38.286138,orange,headache,11,249,yes,1,labs,72.0,no,transferred,no,no,low,night
+391,51,F,walk-in,2026-02-10 15:38:38.286185,yellow,vomiting,47,224,yes,5,labs,84.0,no,discharged,no,no,high,evening
+392,37,F,ambulance,2026-02-09 21:43:38.286231,orange,vomiting,17,117,yes,4,imaging,,no,discharged,no,no,medium,day
+393,11,M,walk-in,2026-02-08 02:21:38.286269,yellow,headache,86,179,yes,1,none,,no,admitted,no,no,high,night
+394,62,M,ambulance,2026-02-10 16:43:38.286315,orange,abdominal pain,27,138,yes,4,none,,no,discharged,no,yes,high,night
+395,40,F,walk-in,2026-02-04 08:41:38.286337,yellow,vomiting,45,78,yes,3,labs,37.0,yes,discharged,no,no,low,night
+396,79,F,walk-in,2026-02-09 00:28:38.286360,red,bleeding,7,197,yes,6,labs,57.0,yes,admitted,no,no,medium,evening
+397,32,M,walk-in,2026-02-05 05:34:38.286378,yellow,diarrhea,80,160,yes,4,labs,57.0,yes,admitted,no,no,medium,evening
+398,5,M,walk-in,2026-02-09 06:39:38.286396,green,diarrhea,152,359,yes,3,labs,81.0,yes,discharged,no,no,low,evening
+399,8,M,walk-in,2026-02-05 00:25:38.286415,green,headache,169,278,yes,5,both,77.0,yes,discharged,no,no,low,evening
+400,61,F,ambulance,2026-02-10 15:10:38.286433,orange,abdominal pain,9,162,yes,4,imaging,,yes,discharged,no,yes,high,evening
+401,49,M,walk-in,2026-02-08 02:20:38.286452,green,diarrhea,47,333,yes,1,both,82.0,no,admitted,no,no,low,day
+402,76,F,ambulance,2026-02-05 09:42:38.286475,orange,fever,22,132,yes,3,both,82.0,no,discharged,no,no,high,evening
+403,7,M,walk-in,2026-02-05 01:46:38.286493,green,bleeding,73,211,yes,2,both,97.0,no,discharged,no,yes,low,evening
+404,43,M,ambulance,2026-02-10 07:08:38.286512,red,headache,4,258,yes,5,labs,62.0,no,discharged,no,no,low,day
+405,16,M,walk-in,2026-02-08 18:58:38.286530,green,vomiting,148,416,yes,6,both,98.0,yes,discharged,no,no,low,day
+406,31,M,walk-in,2026-02-08 05:50:38.286548,yellow,headache,39,130,yes,2,none,,no,discharged,no,no,low,night
+407,1,F,walk-in,2026-02-04 11:50:38.286565,green,headache,47,130,yes,5,imaging,,yes,transferred,no,no,low,evening
+408,15,F,walk-in,2026-02-05 14:17:38.286584,green,abdominal pain,141,242,yes,4,labs,87.0,yes,discharged,no,no,high,day
+409,90,F,ambulance,2026-02-04 17:35:38.286602,orange,fever,17,314,yes,6,imaging,,yes,admitted,no,no,high,day
+410,58,F,walk-in,2026-02-03 21:11:38.286619,green,vomiting,153,275,yes,1,imaging,,yes,discharged,no,no,medium,day
+411,24,F,walk-in,2026-02-03 21:53:38.286640,green,bleeding,66,334,yes,1,both,31.0,yes,transferred,no,no,medium,night
+412,19,M,walk-in,2026-02-09 14:25:38.286674,green,headache,179,466,yes,1,imaging,,no,admitted,no,no,medium,evening
+413,26,F,walk-in,2026-02-06 01:05:38.286706,green,abdominal pain,161,396,yes,5,labs,115.0,no,discharged,no,yes,high,night
+414,33,F,walk-in,2026-02-07 21:12:38.286767,green,vomiting,110,184,yes,5,imaging,,yes,discharged,no,yes,low,evening
+415,59,F,walk-in,2026-02-09 20:45:38.286809,green,fever,174,310,yes,1,both,79.0,yes,admitted,no,no,medium,night
+416,19,M,ambulance,2026-02-07 08:01:38.286841,orange,vomiting,24,320,yes,4,none,,yes,discharged,no,no,medium,evening
+417,13,M,walk-in,2026-02-10 08:09:38.286872,yellow,headache,79,264,yes,5,imaging,,yes,discharged,no,no,low,night
+418,54,F,walk-in,2026-02-08 19:02:38.286906,yellow,abdominal pain,43,142,yes,3,both,63.0,yes,discharged,no,no,high,day
+419,84,M,walk-in,2026-02-04 14:18:38.287002,green,bleeding,148,278,yes,6,both,46.0,no,admitted,no,no,low,night
+420,62,F,walk-in,2026-02-03 21:18:38.287048,yellow,vomiting,50,278,yes,3,imaging,,no,admitted,no,no,medium,night
+421,42,M,walk-in,2026-02-04 19:49:38.287080,orange,abdominal pain,13,156,yes,2,both,80.0,yes,discharged,no,yes,medium,evening
+422,31,F,walk-in,2026-02-10 09:34:38.287101,green,fever,118,400,yes,3,both,42.0,no,discharged,no,no,medium,evening
+423,6,F,walk-in,2026-02-07 18:03:38.287123,green,abdominal pain,56,247,yes,3,labs,47.0,yes,discharged,no,no,low,day
+424,49,M,walk-in,2026-02-07 11:57:38.287141,green,headache,54,233,yes,5,labs,67.0,no,discharged,no,no,high,evening
+425,16,M,ambulance,2026-02-08 04:45:38.287159,orange,headache,24,127,yes,5,labs,67.0,no,discharged,no,no,high,night
+426,15,M,walk-in,2026-02-06 19:00:38.287178,yellow,fever,49,221,yes,2,both,91.0,no,discharged,no,no,high,night
+427,28,M,walk-in,2026-02-07 00:44:38.287198,green,headache,169,306,yes,3,both,47.0,yes,discharged,no,no,high,day
+428,74,F,walk-in,2026-02-06 19:05:38.287217,green,diarrhea,51,300,yes,5,labs,114.0,yes,discharged,no,no,high,day
+429,26,F,walk-in,2026-02-07 22:01:38.287235,green,vomiting,114,251,yes,3,none,,no,discharged,no,no,high,evening
+430,52,M,walk-in,2026-02-05 07:39:38.287259,yellow,fever,58,137,yes,6,none,,no,discharged,no,no,medium,day
+431,35,F,walk-in,2026-02-05 22:59:38.287299,yellow,fever,90,171,yes,2,both,33.0,yes,discharged,no,no,medium,day
+432,59,F,walk-in,2026-02-04 06:47:38.287333,yellow,abdominal pain,67,341,yes,3,both,38.0,no,admitted,no,no,low,day
+433,67,M,ambulance,2026-02-10 06:17:38.287370,orange,bleeding,29,172,yes,5,labs,41.0,yes,transferred,no,no,medium,day
+434,1,F,walk-in,2026-02-05 20:14:38.287411,yellow,fever,56,202,yes,4,both,95.0,no,transferred,no,no,medium,night
+435,77,F,walk-in,2026-02-05 19:34:38.287432,yellow,bleeding,59,162,yes,1,labs,32.0,yes,admitted,no,no,low,evening
+436,52,F,walk-in,2026-02-05 17:59:38.287464,orange,fever,26,108,yes,6,imaging,,yes,admitted,no,no,high,day
+437,22,F,walk-in,2026-02-04 21:38:38.287507,green,abdominal pain,74,266,yes,4,none,,no,admitted,no,no,medium,day
+438,39,M,walk-in,2026-02-07 13:57:38.287545,green,bleeding,94,182,yes,1,labs,87.0,no,discharged,no,no,high,day
+439,30,F,walk-in,2026-02-10 09:29:38.287577,yellow,diarrhea,53,328,yes,3,both,99.0,yes,discharged,no,no,low,night
+440,86,F,walk-in,2026-02-04 04:54:38.287596,green,fever,77,363,yes,4,both,67.0,yes,discharged,no,no,medium,night
+441,2,F,walk-in,2026-02-08 18:05:38.287615,yellow,bleeding,54,314,yes,4,both,81.0,yes,discharged,no,no,low,night
+442,9,M,walk-in,2026-02-06 04:44:38.287633,yellow,abdominal pain,34,195,yes,1,imaging,,yes,discharged,no,no,high,day
+443,25,M,walk-in,2026-02-05 07:20:38.287651,yellow,diarrhea,68,317,yes,1,none,,no,discharged,no,no,high,evening
+444,52,F,walk-in,2026-02-07 13:54:38.287670,green,fever,163,228,yes,4,both,84.0,yes,discharged,no,no,medium,night
+445,23,F,walk-in,2026-02-08 16:02:38.287688,green,abdominal pain,146,388,yes,1,labs,75.0,yes,discharged,no,yes,high,night
+446,46,F,walk-in,2026-02-07 20:09:38.287717,yellow,fever,79,273,yes,4,imaging,,yes,discharged,no,no,medium,evening
+447,71,F,ambulance,2026-02-05 10:59:38.287750,orange,abdominal pain,8,201,yes,2,imaging,,yes,discharged,no,no,high,evening
+448,56,M,ambulance,2026-02-05 10:44:38.287770,orange,bleeding,10,258,yes,2,labs,59.0,no,discharged,no,yes,high,day
+449,20,F,walk-in,2026-02-07 07:46:38.287809,yellow,fever,29,219,yes,4,labs,37.0,no,admitted,no,no,low,evening
+450,74,F,walk-in,2026-02-08 01:07:38.287832,red,fever,8,40,yes,4,none,,no,discharged,no,no,medium,day
+451,36,M,walk-in,2026-02-07 16:09:38.287851,yellow,abdominal pain,29,314,yes,4,both,72.0,yes,discharged,no,no,high,evening
+452,11,M,walk-in,2026-02-06 09:11:38.287873,yellow,vomiting,83,297,yes,4,none,,yes,admitted,no,no,high,day
+453,19,M,walk-in,2026-02-09 21:35:38.287892,green,bleeding,68,141,yes,6,none,,no,discharged,no,no,medium,night
+454,63,M,ambulance,2026-02-08 01:48:38.287923,orange,headache,14,185,yes,6,none,,yes,admitted,no,no,high,night
+455,46,M,walk-in,2026-02-09 03:50:38.287961,green,fever,119,407,yes,2,none,,no,transferred,no,no,low,evening
+456,38,F,ambulance,2026-02-08 17:24:38.287985,orange,vomiting,23,197,yes,2,labs,112.0,no,discharged,no,no,low,evening
+457,29,M,walk-in,2026-02-05 10:51:38.288002,green,abdominal pain,88,171,yes,6,none,,yes,discharged,no,no,medium,day
+458,14,M,walk-in,2026-02-05 07:23:38.288030,yellow,headache,79,264,yes,5,none,,no,discharged,no,no,high,evening
+459,73,M,walk-in,2026-02-05 02:54:38.288049,yellow,vomiting,46,179,yes,4,none,,yes,admitted,no,no,medium,day
+460,0,F,walk-in,2026-02-03 18:45:38.288070,yellow,headache,33,97,yes,4,imaging,,yes,admitted,no,no,low,night
+461,75,F,walk-in,2026-02-06 12:43:38.288087,yellow,bleeding,48,340,yes,2,imaging,,no,discharged,no,no,medium,evening
+462,18,F,walk-in,2026-02-10 02:58:38.288104,yellow,abdominal pain,69,196,yes,2,imaging,,no,discharged,no,no,medium,day
+463,16,F,walk-in,2026-02-10 12:25:38.288129,green,vomiting,87,363,yes,5,imaging,,no,discharged,no,no,high,day
+464,42,F,walk-in,2026-02-04 00:24:38.288166,green,bleeding,174,302,yes,5,imaging,,yes,discharged,no,no,medium,night
+465,1,F,walk-in,2026-02-06 16:34:38.288204,green,abdominal pain,98,331,yes,6,none,,yes,discharged,no,no,high,day
+466,64,M,walk-in,2026-02-03 19:19:38.288227,yellow,abdominal pain,28,285,yes,3,imaging,,yes,discharged,no,no,high,day
+467,67,M,ambulance,2026-02-05 20:21:38.288246,orange,bleeding,9,151,yes,3,imaging,,yes,discharged,no,no,high,evening
+468,7,F,walk-in,2026-02-10 12:48:38.288264,green,bleeding,77,340,yes,3,none,,no,discharged,no,yes,high,night
+469,72,F,walk-in,2026-02-04 23:00:38.288282,orange,headache,11,157,yes,1,both,61.0,yes,discharged,no,no,medium,night
+470,30,F,walk-in,2026-02-08 14:18:38.288301,yellow,vomiting,73,215,yes,4,both,100.0,no,discharged,no,no,high,day
+471,87,F,ambulance,2026-02-09 17:21:38.288320,orange,vomiting,16,80,yes,3,both,69.0,yes,discharged,no,no,medium,night
+472,65,F,ambulance,2026-02-06 22:01:38.288338,orange,abdominal pain,24,156,yes,6,none,,no,discharged,no,yes,high,evening
+473,70,M,ambulance,2026-02-07 16:01:38.288357,orange,bleeding,30,164,yes,6,none,,yes,discharged,no,no,low,day
+474,41,M,walk-in,2026-02-07 06:26:38.288395,red,abdominal pain,2,203,yes,1,imaging,,no,discharged,no,no,low,evening
+475,15,F,ambulance,2026-02-05 05:44:38.288443,orange,abdominal pain,30,121,yes,1,labs,70.0,yes,discharged,no,no,high,night
+476,84,F,walk-in,2026-02-08 16:12:38.288483,green,abdominal pain,134,426,yes,6,labs,74.0,no,discharged,no,no,medium,day
+477,30,M,walk-in,2026-02-07 22:54:38.288514,red,vomiting,10,63,yes,1,both,94.0,yes,admitted,no,no,low,evening
+478,22,F,walk-in,2026-02-09 01:28:38.288546,yellow,headache,75,175,yes,4,labs,119.0,yes,discharged,no,no,high,day
+479,12,M,walk-in,2026-02-10 14:27:38.288583,green,fever,139,422,yes,6,none,,no,transferred,no,no,medium,day
+480,85,F,walk-in,2026-02-07 17:27:38.288620,green,headache,154,394,yes,3,none,,yes,discharged,no,yes,high,evening
+481,54,F,walk-in,2026-02-09 00:14:38.288652,yellow,vomiting,16,70,yes,2,none,,no,discharged,no,no,low,day
+482,44,M,walk-in,2026-02-08 16:01:38.288671,yellow,abdominal pain,32,72,yes,4,labs,96.0,no,admitted,no,no,medium,day
+483,61,F,walk-in,2026-02-09 14:28:38.288690,yellow,bleeding,80,249,yes,2,labs,67.0,yes,admitted,no,no,high,day
+484,24,M,walk-in,2026-02-09 17:49:38.288709,green,vomiting,122,187,yes,6,labs,32.0,yes,discharged,no,no,medium,evening
+485,36,F,walk-in,2026-02-08 21:32:38.288726,yellow,headache,34,315,yes,6,none,,yes,discharged,no,no,low,day
+486,59,M,walk-in,2026-02-10 09:47:38.288745,yellow,vomiting,25,296,yes,6,none,,no,discharged,no,yes,high,day
+487,39,M,ambulance,2026-02-06 06:10:38.288763,orange,diarrhea,17,152,yes,4,labs,95.0,no,discharged,no,no,high,night
+488,41,F,walk-in,2026-02-07 13:40:38.288785,yellow,vomiting,81,116,yes,6,labs,75.0,yes,discharged,no,no,medium,evening
+489,44,F,walk-in,2026-02-09 17:42:38.288821,green,fever,117,295,yes,6,both,95.0,yes,discharged,no,no,medium,evening
+490,2,M,walk-in,2026-02-08 01:25:38.288851,yellow,vomiting,69,183,yes,5,imaging,,no,discharged,no,no,medium,night
+491,20,M,walk-in,2026-02-05 14:14:38.288870,green,bleeding,148,289,yes,1,imaging,,yes,discharged,no,no,low,day
+492,40,F,walk-in,2026-02-05 01:49:38.288889,green,headache,83,326,yes,3,both,86.0,no,discharged,no,no,medium,night
+493,63,M,walk-in,2026-02-04 03:40:38.288908,green,fever,135,171,yes,2,labs,38.0,yes,discharged,no,no,medium,day
+494,65,F,walk-in,2026-02-05 10:47:38.288928,green,bleeding,177,254,yes,3,both,115.0,yes,discharged,no,no,high,day
+495,72,F,walk-in,2026-02-06 16:17:38.288946,yellow,headache,34,122,yes,1,none,,no,discharged,no,no,low,night
+496,66,F,walk-in,2026-02-07 06:45:38.288966,green,vomiting,68,241,yes,3,labs,44.0,no,discharged,no,no,medium,night
+497,23,F,walk-in,2026-02-04 16:15:38.288984,green,headache,128,304,yes,5,labs,47.0,no,discharged,no,no,high,evening
+498,76,F,walk-in,2026-02-05 16:03:38.289010,yellow,diarrhea,42,248,yes,3,labs,87.0,no,discharged,no,no,medium,day
+499,78,M,ambulance,2026-02-08 09:20:38.289049,red,bleeding,10,94,yes,5,imaging,,no,transferred,no,no,low,night
+500,47,F,walk-in,2026-02-07 20:29:38.289076,green,bleeding,81,379,yes,4,none,,no,discharged,no,no,low,night
+501,68,F,walk-in,2026-02-06 05:03:38.289095,green,fever,112,382,yes,1,both,60.0,yes,discharged,no,no,medium,day
+502,32,M,walk-in,2026-02-09 16:05:38.289114,green,vomiting,51,322,yes,6,imaging,,yes,discharged,no,no,medium,day
+503,12,F,ambulance,2026-02-04 16:17:38.289133,orange,vomiting,22,306,yes,3,imaging,,yes,discharged,no,no,medium,night
+504,68,M,ambulance,2026-02-05 13:32:38.289150,red,headache,4,294,yes,6,imaging,,no,discharged,no,no,low,day
+505,57,M,walk-in,2026-02-10 09:59:38.289168,green,bleeding,90,125,yes,2,none,,yes,discharged,no,no,medium,evening
+506,49,F,walk-in,2026-02-05 15:23:38.289187,orange,fever,29,230,yes,6,labs,94.0,yes,discharged,no,no,low,night
+507,3,M,walk-in,2026-02-06 00:22:38.289204,green,abdominal pain,101,332,yes,1,labs,67.0,yes,admitted,no,no,high,night
+508,4,F,walk-in,2026-02-09 01:33:38.289234,green,fever,141,196,yes,1,imaging,,yes,transferred,no,no,high,evening
+509,70,M,walk-in,2026-02-07 20:21:38.289273,yellow,diarrhea,28,245,yes,6,both,75.0,yes,discharged,no,no,medium,evening
+510,34,M,ambulance,2026-02-09 19:41:38.289308,red,fever,2,270,yes,2,both,32.0,no,discharged,no,no,high,day
+511,56,F,ambulance,2026-02-10 10:39:38.289328,orange,bleeding,26,71,yes,3,labs,98.0,no,discharged,no,no,high,day
+512,22,F,ambulance,2026-02-03 23:05:38.289347,orange,fever,14,265,yes,4,both,69.0,no,discharged,no,no,high,night
+513,23,M,walk-in,2026-02-04 15:55:38.289365,green,abdominal pain,65,247,yes,6,labs,73.0,yes,discharged,no,no,medium,night
+514,44,F,walk-in,2026-02-09 06:35:38.289383,green,vomiting,160,406,yes,5,none,,no,discharged,no,no,medium,night
+515,66,F,ambulance,2026-02-08 22:06:38.289401,orange,fever,11,174,yes,6,none,,no,discharged,no,no,medium,evening
+516,77,F,walk-in,2026-02-05 04:04:38.289419,yellow,diarrhea,85,162,yes,6,both,67.0,yes,discharged,no,no,high,evening
+517,5,F,walk-in,2026-02-04 12:16:38.289438,yellow,vomiting,32,162,yes,4,imaging,,yes,admitted,no,no,low,day
+518,32,M,walk-in,2026-02-09 18:20:38.289456,green,vomiting,177,345,yes,2,labs,42.0,no,discharged,no,no,low,day
+519,86,F,walk-in,2026-02-04 08:50:38.289493,yellow,headache,28,131,yes,6,none,,yes,discharged,no,yes,low,day
+520,60,M,walk-in,2026-02-10 08:47:38.289539,green,bleeding,102,216,yes,6,labs,44.0,yes,discharged,no,yes,high,night
+521,28,M,walk-in,2026-02-08 14:09:38.289578,green,fever,126,223,yes,2,both,111.0,no,admitted,no,no,medium,night
+522,12,M,walk-in,2026-02-06 16:59:38.289618,red,bleeding,10,257,yes,6,imaging,,yes,discharged,no,no,low,evening
+523,28,F,walk-in,2026-02-05 07:17:38.289650,yellow,bleeding,57,282,yes,6,both,107.0,yes,discharged,no,no,low,day
+524,7,F,walk-in,2026-02-10 08:10:38.289706,green,bleeding,127,366,yes,1,labs,95.0,no,discharged,no,no,high,evening
+525,23,M,walk-in,2026-02-08 05:00:38.289728,green,bleeding,51,271,yes,2,labs,120.0,no,admitted,no,no,medium,day
+526,70,F,ambulance,2026-02-10 02:26:38.289757,red,fever,7,92,yes,3,imaging,,no,discharged,no,no,high,night
+527,80,M,ambulance,2026-02-09 04:45:38.289798,orange,vomiting,15,99,yes,6,imaging,,yes,admitted,no,no,low,day
+528,74,F,walk-in,2026-02-09 15:36:38.289820,yellow,abdominal pain,85,131,yes,4,labs,58.0,no,admitted,no,no,low,night
+529,12,F,walk-in,2026-02-09 16:06:38.289838,yellow,vomiting,82,154,yes,1,labs,105.0,yes,discharged,no,no,medium,day
+530,54,F,walk-in,2026-02-04 01:10:38.289858,green,bleeding,131,300,yes,2,none,,no,admitted,no,no,low,day
+531,73,M,walk-in,2026-02-05 09:30:38.289895,green,abdominal pain,97,135,yes,4,imaging,,yes,admitted,no,no,high,day
+532,21,F,walk-in,2026-02-09 00:13:38.289916,yellow,bleeding,18,279,yes,6,both,61.0,yes,discharged,no,no,low,night
+533,80,M,ambulance,2026-02-08 22:30:38.290061,orange,fever,20,200,yes,5,labs,56.0,no,discharged,no,no,low,day
+534,51,M,ambulance,2026-02-08 13:18:38.290114,orange,fever,19,317,yes,1,labs,110.0,no,discharged,no,no,low,night
+535,40,M,ambulance,2026-02-08 16:50:38.290156,orange,headache,9,304,yes,6,none,,yes,discharged,no,no,medium,day
+536,16,M,walk-in,2026-02-05 15:54:38.290191,yellow,diarrhea,30,301,yes,3,imaging,,no,admitted,no,no,medium,evening
+537,30,F,walk-in,2026-02-09 10:03:38.290209,green,headache,49,199,yes,5,none,,no,admitted,no,no,high,night
+538,40,M,walk-in,2026-02-03 21:45:38.290228,yellow,headache,68,174,yes,2,labs,86.0,yes,discharged,no,no,high,evening
+539,35,F,walk-in,2026-02-07 11:45:38.290246,green,abdominal pain,83,339,yes,2,labs,102.0,yes,admitted,no,no,low,evening
+540,6,F,walk-in,2026-02-08 11:18:38.290266,red,headache,5,37,yes,5,labs,43.0,yes,discharged,no,no,low,evening
+541,11,M,walk-in,2026-02-09 17:38:38.290285,green,bleeding,74,284,yes,1,labs,60.0,yes,discharged,no,no,low,evening
+542,42,M,walk-in,2026-02-09 05:53:38.290321,green,diarrhea,139,249,yes,6,imaging,,no,admitted,no,no,low,evening
+543,22,M,ambulance,2026-02-09 18:56:38.290360,orange,fever,25,325,yes,3,none,,yes,admitted,no,no,high,day
+544,40,F,walk-in,2026-02-05 11:18:38.290398,green,abdominal pain,70,338,yes,4,labs,98.0,yes,discharged,no,no,high,evening
+545,77,F,walk-in,2026-02-09 02:41:38.290436,green,fever,121,240,yes,5,imaging,,no,admitted,no,no,medium,evening
+546,22,M,walk-in,2026-02-08 12:01:38.290467,green,diarrhea,73,274,yes,6,labs,86.0,yes,admitted,no,no,medium,night
+547,29,F,walk-in,2026-02-09 07:58:38.290487,yellow,vomiting,43,250,yes,3,imaging,,no,transferred,no,no,low,night
+548,74,F,walk-in,2026-02-08 20:41:38.290523,green,fever,89,287,yes,4,labs,111.0,yes,discharged,no,no,low,night
+549,19,M,walk-in,2026-02-08 02:01:38.290562,yellow,abdominal pain,73,270,yes,5,both,90.0,no,admitted,no,no,medium,evening
+550,54,F,walk-in,2026-02-06 06:31:38.290599,orange,diarrhea,18,81,yes,4,none,,yes,discharged,no,no,low,evening
+551,46,M,walk-in,2026-02-04 02:37:38.290770,green,headache,81,264,yes,5,imaging,,no,discharged,no,no,low,night
+552,78,F,walk-in,2026-02-05 08:07:38.290831,green,abdominal pain,158,305,yes,5,labs,115.0,yes,discharged,no,no,high,day
+553,31,M,walk-in,2026-02-05 14:02:38.290873,green,abdominal pain,100,333,yes,1,labs,45.0,yes,discharged,no,no,medium,night
+554,38,F,ambulance,2026-02-03 20:26:38.290918,red,fever,3,243,yes,2,labs,54.0,no,discharged,no,no,medium,day
+555,71,M,walk-in,2026-02-08 14:08:38.290941,green,diarrhea,46,92,yes,2,both,51.0,yes,discharged,no,no,low,day
+556,11,M,walk-in,2026-02-06 02:34:38.290962,yellow,bleeding,21,307,yes,1,labs,83.0,no,discharged,no,no,medium,night
+557,28,F,walk-in,2026-02-10 15:41:38.290980,yellow,abdominal pain,29,184,yes,6,imaging,,yes,discharged,no,no,high,night
+558,35,F,walk-in,2026-02-05 18:42:38.290997,green,abdominal pain,78,124,yes,1,imaging,,yes,discharged,no,no,medium,day
+559,60,M,ambulance,2026-02-05 05:06:38.291025,red,fever,1,69,yes,6,labs,82.0,yes,discharged,no,yes,low,night
+560,76,M,walk-in,2026-02-09 00:59:38.291063,yellow,fever,17,270,yes,4,labs,85.0,no,discharged,no,no,low,evening
+561,76,F,walk-in,2026-02-06 07:36:38.291089,green,bleeding,145,369,yes,4,imaging,,no,discharged,no,no,medium,evening
+562,78,M,walk-in,2026-02-08 19:40:38.291112,yellow,abdominal pain,18,114,yes,6,labs,120.0,no,transferred,no,no,low,night
+563,82,M,walk-in,2026-02-06 21:51:38.291150,yellow,bleeding,67,294,yes,2,both,110.0,no,discharged,no,no,high,night
+564,52,F,walk-in,2026-02-07 07:56:38.291188,yellow,bleeding,72,363,yes,2,none,,yes,transferred,no,no,low,night
+565,27,F,walk-in,2026-02-04 08:29:38.291219,green,diarrhea,56,200,yes,5,none,,no,discharged,no,no,medium,day
+566,32,M,walk-in,2026-02-05 16:07:38.291266,green,vomiting,40,328,yes,2,labs,61.0,no,admitted,no,no,high,evening
+567,31,M,walk-in,2026-02-07 22:28:38.291289,yellow,bleeding,86,314,yes,4,none,,no,discharged,no,no,high,evening
+568,36,M,walk-in,2026-02-09 20:45:38.291308,yellow,abdominal pain,47,155,yes,3,imaging,,no,discharged,no,no,high,evening
+569,41,F,walk-in,2026-02-04 01:28:38.291327,yellow,bleeding,69,338,yes,5,both,58.0,no,discharged,no,no,high,evening
+570,31,M,walk-in,2026-02-04 02:34:38.291345,green,fever,121,298,yes,3,none,,yes,discharged,no,no,medium,day
+571,20,F,walk-in,2026-02-07 21:25:38.291362,green,abdominal pain,118,291,yes,4,imaging,,yes,discharged,no,no,low,night
+572,19,M,walk-in,2026-02-06 01:00:38.291381,yellow,diarrhea,32,78,yes,6,none,,yes,discharged,no,no,low,night
+573,3,M,walk-in,2026-02-07 20:42:38.291399,green,fever,35,87,yes,1,both,101.0,yes,discharged,no,no,high,day
+574,28,F,walk-in,2026-02-05 13:37:38.291416,green,vomiting,52,328,yes,4,none,,yes,discharged,no,no,high,night
+575,48,M,walk-in,2026-02-03 22:45:38.291435,green,fever,153,208,yes,5,labs,117.0,yes,discharged,no,no,low,evening
+576,65,M,walk-in,2026-02-04 17:40:38.291471,orange,headache,29,167,yes,3,none,,no,discharged,no,no,low,evening
+577,49,M,walk-in,2026-02-07 21:19:38.291510,green,fever,151,427,yes,3,imaging,,yes,discharged,no,no,low,day
+578,9,F,ambulance,2026-02-10 02:25:38.291532,red,bleeding,0,299,yes,4,labs,44.0,no,discharged,no,no,medium,night
+579,20,F,walk-in,2026-02-10 14:33:38.291551,green,headache,121,242,yes,6,labs,30.0,no,discharged,no,no,low,evening
+580,21,F,walk-in,2026-02-07 08:49:38.291569,green,vomiting,154,311,yes,6,labs,68.0,yes,admitted,no,no,high,evening
+581,5,M,walk-in,2026-02-05 15:06:38.291587,yellow,bleeding,43,278,yes,5,labs,31.0,yes,discharged,no,no,high,day
+582,78,F,ambulance,2026-02-04 13:53:38.291606,orange,fever,8,253,yes,3,none,,no,discharged,no,no,medium,night
+583,4,M,ambulance,2026-02-08 00:11:38.291627,orange,headache,12,239,yes,1,labs,72.0,no,discharged,no,no,medium,day
+584,14,F,ambulance,2026-02-05 22:20:38.291646,red,diarrhea,5,64,yes,1,none,,no,admitted,no,no,high,night
+585,33,M,walk-in,2026-02-07 05:08:38.291664,yellow,vomiting,58,261,yes,4,imaging,,no,discharged,no,no,high,night
+586,46,M,walk-in,2026-02-06 07:41:38.291687,orange,headache,8,268,yes,5,labs,112.0,yes,admitted,no,no,high,night
+587,13,F,ambulance,2026-02-09 20:58:38.291706,red,fever,5,111,yes,4,labs,32.0,yes,discharged,no,no,low,day
+588,9,F,walk-in,2026-02-06 13:44:38.291744,yellow,bleeding,44,269,yes,3,imaging,,no,admitted,no,no,high,night
+589,48,F,walk-in,2026-02-07 14:44:38.291783,green,bleeding,77,192,yes,2,imaging,,no,discharged,no,no,high,night
+590,7,F,walk-in,2026-02-07 06:27:38.291804,orange,vomiting,14,207,yes,4,none,,yes,discharged,no,no,medium,day
+591,10,F,walk-in,2026-02-08 06:41:38.291822,yellow,fever,38,203,yes,3,labs,85.0,yes,discharged,no,no,low,day
+592,5,F,ambulance,2026-02-05 01:40:38.291841,orange,diarrhea,8,184,yes,1,labs,57.0,no,discharged,no,no,low,day
+593,35,F,walk-in,2026-02-04 07:45:38.291859,green,diarrhea,122,177,yes,2,labs,83.0,yes,admitted,no,no,low,night
+594,46,M,walk-in,2026-02-09 16:07:38.291895,yellow,headache,50,200,yes,5,both,70.0,yes,discharged,no,no,low,day
+595,63,M,walk-in,2026-02-05 06:52:38.291934,yellow,headache,82,129,yes,3,labs,56.0,no,discharged,no,yes,medium,night
+596,51,M,walk-in,2026-02-04 12:59:38.291963,yellow,abdominal pain,20,171,yes,2,labs,30.0,yes,admitted,no,no,medium,evening
+597,59,M,walk-in,2026-02-08 18:31:38.292082,yellow,abdominal pain,42,287,yes,4,labs,114.0,yes,discharged,no,no,medium,evening
+598,71,F,walk-in,2026-02-06 04:28:38.292247,green,diarrhea,90,254,yes,6,imaging,,yes,admitted,no,no,high,night
+599,62,F,ambulance,2026-02-09 00:29:38.292308,orange,vomiting,29,204,yes,5,labs,72.0,no,discharged,no,no,low,day
+600,27,F,ambulance,2026-02-09 10:02:38.292346,orange,headache,19,228,yes,5,both,80.0,yes,discharged,no,no,high,day
